@@ -8,6 +8,7 @@ import appConfig from '../config/config.json';
 import { changelogUrl, getAppVersion, isDevelopment, isMac } from './common/constants';
 import { database } from './common/database';
 import log, { initializeLogging } from './common/log';
+import { registerInsomniaStreamProtocol } from './main/api.protocol';
 import { registerElectronHandlers } from './main/ipc/electron';
 import { registergRPCHandlers } from './main/ipc/grpc';
 import { registerMainHandlers } from './main/ipc/main';
@@ -22,6 +23,7 @@ import type { ToastNotification } from './ui/components/toast';
 
 initializeSentry();
 
+registerInsomniaStreamProtocol();
 // Handle potential auto-update
 if (checkIfRestartNeeded()) {
   process.exit(0);
