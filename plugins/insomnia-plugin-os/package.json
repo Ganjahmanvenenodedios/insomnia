@@ -19,6 +19,6 @@
     "description": "Get information about the OS"
   },
   "dependencies": {
-    "jsonpath-plus": "^6.0.1"
+    "jsonpath-plus": "^10.0.0"
   }
 }
