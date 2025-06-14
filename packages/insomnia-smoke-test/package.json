@@ -30,7 +30,7 @@
   "devDependencies": {
     "@grpc/grpc-js": "^1.6.7",
     "@grpc/proto-loader": "^0.6.11",
-    "@jest/globals": "^28.1.0",
+    "@jest/globals": "^30.0.0",
     "@playwright/test": "^1.30.0",
     "@ravanallc/grpc-server-reflection": "^0.1.6",
     "@types/concurrently": "^6.0.1",
@@ -52,9 +52,9 @@
     "faker": "^5.1.0",
     "get-bin-path": "^5.1.0",
     "graphql": "^15.8.0",
-    "jest": "^28.1.0",
+    "jest": "^30.0.0",
     "mkdirp": "^1.0.4",
-    "oidc-provider": "^7.10.6",
+    "oidc-provider": "^8.1.1",
     "uuid": "^8.3.2",
     "ws": "^8.8.1",
     "xvfb-maybe": "^0.2.1"
